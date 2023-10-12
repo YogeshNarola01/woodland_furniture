@@ -1,0 +1,138 @@
+.bg-primary {
+    background-color: #BA9E76 !important;
+}
+
+.bg-secondary {
+    background-color: #FFFBEF;
+}
+
+.bg-brown {
+    background-color: #342F2C;
+}
+
+.text-brown {
+    color: #BA9E76;
+}
+
+.text-primary {
+    color: #342F2C;
+}
+
+.text-secondary {
+    color: #675C55;
+}
+
+.text-a-7 {
+    color: #938C89;
+}
+
+.text-Poppins {
+    font-family: Poppins !important;
+}
+
+.text-OPTICopperplate {
+    font-family: OPTICopperplate !important;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.slider-1 {
+    background-image: url('../img/kam-idris-hYb7kbu4x7E-unsplash\ 1.jpg');
+   padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #0000001f;
+    z-index: 1;
+    position: relative;
+    
+}
+@media(min-width:1200px) {
+    .slider-1 {
+        background-image: url('../img/kam-idris-hYb7kbu4x7E-unsplash\ 1.jpg');
+       
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-color: #342F2C;
+        z-index: 1;
+        position: relative;
+    
+    }
+}
+
+.pattern {
+    position: absolute;
+    z-index: -1;
+    width:35%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #342F2C;
+}
+
+.pattern img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.line {
+    width: 117px;
+    height: 3px;
+    background-color: #BA9E76;
+    
+}
+
+
+.choose-box-2{
+    width: 75px;
+    height: 75px;
+    background-color: #BA9E76;    
+}
+.watch{
+    background-image: url('../img/pexels-ono-kosuki-5974053.png');
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: static;
+}
+.study{
+    background-color: #342F2C;
+    background-image: url('../img/svgviewer-png-output.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.box{
+    background-image: url('../img/untitled.png');
+    width: 600px;
+    height: 300px;
+    background-color: #342F2C;
+    padding: 60px;
+}
+.news{
+    background-image: url('../img/untitled.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+.img-12{
+    position: relative;
+}
+.img-12::after{
+    position: absolute;
+    content: "";
+    height: 80px;
+    width: 80px;
+    top: -30%;
+    left: 32%;
+    z-index: -1;
+    background-color: #BA9E76;
+}
